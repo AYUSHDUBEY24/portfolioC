@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio | Space Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Space Theme Container -->
+    <div class="space-container">
+        <div class="floating-planet"></div>
+        <div class="nebula-bg"></div>
+        <div class="space-dust"></div>
+        <div class="meteor"></div>
+        <div class="constellation"></div>
+        
+        <!-- UFO Elements -->
+        <div class="ufo">
+            <div class="ufo-window"></div>
+            <div class="ufo-beam"></div>
+        </div>
+        
+        <!-- Spaceship Elements -->
+        <div class="spaceship">
+            <div class="spaceship-window"></div>
+        </div>
+        
+        <!-- Black Hole Effect -->
+        <div class="black-hole"></div>
+        
+        <!-- Space Station Effect -->
+        <div class="space-station">
+            <div class="station-body"></div>
+            <div class="station-window"></div>
+            <div class="solar-panel left"></div>
+            <div class="solar-panel right"></div>
+        </div>
+        
+        <!-- Space Portal Effect -->
+        <div class="space-portal"></div>
+    </div>
+    
+    <!-- Navigation -->
+    <header>
+        <div class="logo">
+            <a href="#home">
+                <span class="logo-text">@AyushCodes</span> <span class="logo-icon"><i class="fas fa-rocket"></i></span>
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Ayush Dubey</span></h1>
+            <p class="tagline">Driven by curiosity, grounded in logic — I build, lead, and evolve with purpose</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/AYUSHDUBEY24" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayush-dubey-430a19328/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/ayushd.01/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="images/profile.jpg" alt="Your Profile Picture">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Discover My Story</h3>
+                    <p>Hi, I'm Ayush, a Computer Science student passionate about turning ideas into real-world tech solutions. I'm currently exploring Web Development, Artificial Intelligence, and Cybersecurity, and enjoy building projects that challenge me to grow and think creatively.</p>
+                    <p>Along with my technical interests, I'm good at managing tasks, staying organized, and working well with people. I enjoy taking initiative, leading when needed, and making sure goals are met efficiently. I'm always open to learning, collaborating, and creating something meaningful.</p>
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag primary">HTML5</span>
+                            <span class="skill-tag primary">CSS3</span>
+                            <span class="skill-tag primary">JavaScript</span>
+                            <span class="skill-tag primary">Python</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn primary-btn">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Coming Soon Project Placeholder -->
+                <div class="project-card coming-soon" data-category="all">
+                    <div class="project-img placeholder-img">
+                        <i class="fas fa-rocket fa-3x"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Projects Coming Soon</h3>
+                        <p>I'm currently working on exciting new projects that will be showcased here. Stay tuned!</p>
+                        <div class="project-tags">
+                            <span>Future</span>
+                            <span>Development</span>
+                            <span>Innovation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="blogs">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Blogs</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="blogs-grid">
+                <!-- Medium Blog Post -->
+                <div class="blog-card">
+                    <a href="https://medium.com/@mrakdubey2004/why-we-believe-god-space-and-the-search-for-meaning-b62543133576" target="_blank" class="blog-link">
+                        <div class="blog-img">
+                            <img src="images/blog-thumbnail.jpg" alt="Blog Post Thumbnail">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-date">
+                                <i class="far fa-calendar-alt"></i>
+                                <span>May 8, 2025</span>
+                            </div>
+                            <h3>Why We Believe: God, Space, and the Search for Meaning</h3>
+                            <p>"A friendly exploration of belief, science, and the mysteries we still chase."</p>
+                            <div class="blog-tags">
+                                <span>Philosophy</span>
+                                <span>Space</span>
+                                <span>Belief</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="blogs-cta">
+                <a href="https://medium.com/@mrakdubey2004" target="_blank" class="btn primary-btn">View All Posts on Medium</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out to me for collaboration, job opportunities, or just to say hello!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>mrakdubey2004@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 8210129919</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Delhi, India</span>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/AYUSHDUBEY24" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ayush-dubey-430a19328/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/ayushd.01/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formspree.io/f/mkgrbkrb" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="_replyto" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" value="New message from Portfolio Website">
+                        <input type="text" name="_gotcha" style="display:none">
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">@AyushCodes</span>
+                    <span class="logo-icon"><i class="fas fa-rocket"></i></span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#blogs">Blogs</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Ayush Dubey. All Rights Reserved.</p>
+                <p>Designed with <i class="fas fa-heart"></i> and <i class="fas fa-moon"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

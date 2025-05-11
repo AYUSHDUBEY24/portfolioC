@@ -1,0 +1,9 @@
+This directory will contain your portfolio images.
+
+Recommended images to add:
+- profile.jpg (for your profile picture)
+- project1.jpg, project2.jpg, etc. (for your project thumbnails)
+- blog1.jpg, blog2.jpg, etc. (for your blog post thumbnails)
+- Any other images you want to use in your portfolio
+
+You can replace these with your actual images.
